@@ -48,9 +48,9 @@
 # else:
 #     if x==0 and y==0:
 #         print('Точка находится в месте пересечения осей координат')    
-#     elif x ==0 and y!=0:
+#     elif x==0 and y!=0:
 #         print('Точка находится на оси X')
-#     elif y==0:
+#     elif y==0 and x!=0:
 #         print('Точка находится на оси Y')
         
 
@@ -79,4 +79,3 @@
 #yB = int(input('Введите координаты точки B по оси y: '))
 #AB_distance = ((xB-xA)**2 + (yB-yA)**2)**0.5
 #print('{:.2f}'.format(AB_distance))
-
